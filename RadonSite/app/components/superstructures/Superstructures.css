@@ -1,0 +1,12 @@
+
+.m-superstructures.inline-code {
+	font-family: Roboto Mono, Courier New, Courier;
+	padding: 0 4px;
+	white-space: nowrap;
+	font-size: 10pt;
+}
+
+.m-superstructures.main .m-superstructures.inline-code {
+  border: 1px solid #E0E0E0;
+  background-color: #F0F0F0;
+}
