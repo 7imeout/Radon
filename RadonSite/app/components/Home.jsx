@@ -31,18 +31,19 @@ class Home extends React.Component {
               <div className={cssns("featuring")}>
                 <div className={cssns("featuring-title")}>Featuring:</div>
                 <ul>
-                  <li><Link to="/superstructures" className={cssns("feature-title")}>Superstructures</Link>: A simple, powerful paradigm for your application model.</li>
-                  <li><Link to="/types" className={cssns("feature-title incomplete")}>Statically Typed</Link>: Using type inference, structures, and interfaces.</li>
-                  <li><Link to="/ownership" className={cssns("feature-title incomplete")}>Ownership</Link>: Move semantics, strong references, and deterministic destruction.</li>
-                  <li><Link to="/superstructures/reverting" className={cssns("feature-title")}>Time Travel</Link>: Fork, rewind, and compare versions of your superstructures.</li>
-                  <li><Link to="/superstructures/constraints" className={cssns("feature-title")}>Constraints and Transactions</Link>: Bring relational consistency to the rest of your world.</li>
-                  <li><Link to="/functional" className={cssns("feature-title incomplete")}>Functional and Imperative</Link>: Code in the way you want!</li>
-                  <li><Link to="/wingman" className={cssns("feature-title incomplete")}>Memory Safe</Link>: Using the wingman borrow checker.</li>
+                  <li><Link to="/features/superstructures" className={cssns("feature-title")}>Superstructures</Link>: A simple, powerful paradigm for your application model.</li>
+                  <li><Link to="/basics/types" className={cssns("feature-title incomplete")}>Statically Typed</Link>: Using type inference, structures, and interfaces.</li>
+                  <li><Link to="/basics/ownership" className={cssns("feature-title incomplete")}>Ownership</Link>: Move semantics, strong references, and deterministic destruction.</li>
+                  <li><Link to="/features/superstructures/reverting" className={cssns("feature-title")}>Time Travel</Link>: Fork, rewind, and compare versions of your superstructures.</li>
+                  <li><Link to="/features/superstructures/constraints" className={cssns("feature-title")}>Constraints and Transactions</Link>: Bring relational consistency to the rest of your world.</li>
+                  <li><Link to="/basics/functional" className={cssns("feature-title incomplete")}>Functional and Imperative</Link>: Code in the way you want!</li>
+                  <li><Link to="/features/wingman" className={cssns("feature-title incomplete")}>Memory Safe</Link>: Using the wingman borrow checker.</li>
                   {/*<li className={cssns("notyet")}><Link to="/components" className={cssns("feature-title incomplete")}>Components</Link>: OO done right!</li>*/}
-                  <li><Link to="/virtualtemplates" className={cssns("feature-title incomplete")}>Virtual Templates</Link>: Closes the gap between run-time and compile-time polymorphism.</li>
-                  <li><Link to="/replaying" className={cssns("feature-title incomplete")}>Replayable</Link>: Deterministically replay your program to find bugs.</li>
+                  <li><Link to="/features/determinism" className={cssns("feature-title")}>Deterministic</Link>: Enforce that certain functions are deterministic!</li>
+                  <li><Link to="/features/replayability" className={cssns("feature-title")}>Replayable</Link>: Replay your program to find bugs.</li>
                   {/*<li><Link to="/interoperability" className={cssns("feature-title incomplete")}>Interoperable</Link>: Compiles to native<span className={cssns("notyet")}>, JVM, and CLR</span>, and generates headers for C, C++, and Swift.</li>*/}
-                  <li><Link to="/syntax" className={cssns("feature-title incomplete")}>Sweet</Link>: Syntactic sugar like UFCS, polymorphic lambdas, and infix calling!</li>
+                  <li><Link to="/basics/syntax" className={cssns("feature-title incomplete")}>Sweet</Link>: Syntactic sugar like UFCS, polymorphic lambdas, and infix calling!</li>
+                  <li><Link to="/features/virtualtemplates" className={cssns("feature-title incomplete")}>Virtual Templates</Link>: Closes the gap between run-time and compile-time polymorphism.</li>
                 </ul>
               </div>
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../Header.jsx';
-import Footer from '../Footer.jsx';
-import {NoteManager, Note, NoteAnchor, NotesHeader} from '../Note.jsx';
+import Header from '../../Header.jsx';
+import Footer from '../../Footer.jsx';
+import {NoteManager, Note, NoteAnchor, NotesHeader} from '../../Note.jsx';
 import {Link} from 'react-router-dom';
-import './Tutorial.css';
+import '../../Tutorial.css';
 import './Superstructures.css';
 import SuperstructuresTOC from './SuperstructuresTOC.jsx';
 

@@ -1,10 +1,10 @@
 import React from 'react';
-import './Tutorial.css';
+import '../../Tutorial.css';
 import './Superstructures.css';
-import Header from '../Header.jsx';
-import Footer from '../Footer.jsx';
+import Header from '../../Header.jsx';
+import Footer from '../../Footer.jsx';
 import {Link} from 'react-router-dom';
-import {NoteManager, Note, NoteAnchor, NotesHeader} from '../Note.jsx';
+import {NoteManager, Note, NoteAnchor, NotesHeader} from '../../Note.jsx';
 import SuperstructuresTOC from './SuperstructuresTOC.jsx';
 
 const cssns = (classes) => "c-sssnapshots m-tutorial m-superstructures " + (classes || "");
